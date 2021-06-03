@@ -1,0 +1,5 @@
+frase = str(input("Digite algo:").strip())
+algo = str(input("E qual letra você deseja saber a quantidade, sua localização inicial e final? "))
+resp = frase.count(algo)
+print("A letra é ''{}'', nessa cadeia de caracteres ela aprece {} vezes".format(algo,resp))
+print("Ela aparece primeiramente na posição {} e sua ultima aprarição é na posição {}".format(frase.find(algo)+1, frase.rfind(algo)+1))
