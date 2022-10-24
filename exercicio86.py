@@ -7,10 +7,10 @@
 """
 
 matriz = [[], [], []]
-#*Para cada item(lista que está dentro de matriz) em um renge de 0 a 3...
+#*Para cada item(listForSam que está dentro de matriz) em um renge de 0 a 3...
 for linha in range(0, 3):
-    #*Para cada item(posição da lista que está dentro da matriz)
-    #*Toda vez que uma lista secundaria for preenchida, ele pulará para outra
+    #*Para cada item(posição da listForSam que está dentro da matriz)
+    #*Toda vez que uma listForSam secundaria for preenchida, ele pulará para outra
     for coluna in range(0, 3):
        number = int(input(f"Digite um numero para a posição {[linha, coluna]}: "))
        matriz[linha].append(number)

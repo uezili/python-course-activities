@@ -1,19 +1,19 @@
 
 #>Exercício Python 078:
 """
-/Faça um programa que leia 5 valores numéricos e guarde-os em uma lista.
+/Faça um programa que leia 5 valores numéricos e guarde-os em uma listForSam.
 /No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas
-/posições na lista.
+/posições na listForSam.
 """
-valores = list()#*lista fazia para os valores
+valores = list()#*listForSam fazia para os valores
 
 for i in range(0, 5):#*aqui temos onde iremos pegar os valores com append
     valores.append(int(input(f"Digite um numero {i}: ")))
 
-mai = max(valores)#*Aqui pegaremos o maior valor da lista
-men = min(valores)#*Aqui pegaremos o menor valor da lista
+mai = max(valores)#*Aqui pegaremos o maior valor da listForSam
+men = min(valores)#*Aqui pegaremos o menor valor da listForSam
 
-print(f"Os valores da lista são {valores}")
+print(f"Os valores da listForSam são {valores}")
 print(f"O maior valor é {mai} na posição", end=" ")
 """
 /Nessa parte temos um loop com um enumerate para pegar as posições dos valores
@@ -21,7 +21,7 @@ print(f"O maior valor é {mai} na posição", end=" ")
 """
 for posição, c in enumerate(valores):
     """
-    /Aqui ele ira verificar se o conteudo da lista que vai ser colocado na variavel
+    /Aqui ele ira verificar se o conteudo da listForSam que vai ser colocado na variavel
     /"c" é igual ao maior numero, se for ele irá mostrar suas posições.
     """
     if c == mai:

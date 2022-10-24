@@ -1,5 +1,4 @@
-
-#>Exercício Python 087:
+# >Exercício Python 087:
 """
 /Aprimore o desafio anterior, mostrando no final:
 /A) A soma de todos os valores pares digitados.
@@ -9,8 +8,8 @@
 matriz = [[], [], []]
 somaPares = 0
 somaTerceira = 0
-for l in range(0,3):
-    for c in range(0,3):
+for l in range(0, 3):
+    for c in range(0, 3):
         number = int(input(f"Digite um valor para {[l], [c]}: "))
         matriz[l].append(number)
         if number % 2 == 0:
