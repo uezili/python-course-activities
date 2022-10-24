@@ -1,2 +1,0 @@
-mt = float(input("digite a medida em metros ".capitalize()))
-print("o valor digitado foi {}m;\nessa mesma medida em centimetros é {}cm;\ne em milimetros {}ml".capitalize().format(mt,(mt * 100),(mt * 1000)))
