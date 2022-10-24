@@ -23,7 +23,7 @@ for k, v in jogadores.items():
     print(f"{k} tirou {v}.")
     sleep(1)
 # *Aqui iremos usar o sorted parar organizar os vencedores na ordem
-# *Colocando em uma lista... temos uma função itemgetter que vai verificar
+# *Colocando em uma listForSam... temos uma função itemgetter que vai verificar
 # *Conteudo da chave e organizar em ordem crescente. O "reverse=True" servirá
 # *Para mudar a ordem para descrente.
 ordemVencedores = sorted(jogadores.items(), key=itemgetter(1), reverse=True)

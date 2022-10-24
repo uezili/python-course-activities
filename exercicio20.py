@@ -5,5 +5,5 @@ a3 = input('Digite o nome de mais um: ')
 a4 = input('O ultimo: ')
 lista = [a1,a2,a3,a4]
 random.shuffle(lista)
-print('A lista de apresentação sera:')
+print('A listForSam de apresentação sera:')
 print(lista)

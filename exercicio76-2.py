@@ -1,5 +1,5 @@
 """
-/tupla onde irá os produtos da lista de compras
+/tupla onde irá os produtos da listForSam de compras
 """
 produtosPreços = ('Detergente', 2.00, 'Sabão', 3.00, 'Limpa fácil', 2.50, 'Salgadinho', 1.00)
 """

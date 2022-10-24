@@ -1,6 +1,4 @@
-
-
-#>Exercício Python 093:
+# >Exercício Python 093:
 """
 /Crie um programa que gerencie o aproveitamento de um jogador
 /de futebol. O programa vai ler o nome do jogador e quantas
@@ -24,6 +22,5 @@ for s in golsPartidas:
 dadosJogador['total'] = total
 dadosJogador['Gols'] = golsPartidas.copy()
 
-for k,v in dadosJogador.items():
+for k, v in dadosJogador.items():
     print(f"- O {k} tem valor {v}.")
-

@@ -3,11 +3,11 @@
 """
 Crie um programa que leia nome, Sexo e idade de várias pessoas,
 guardando os dados de cada pessoa em um dicionário e todos os
-dicionários em uma lista. No final, mostre:
+dicionários em uma listForSam. No final, mostre:
 A) Quantas pessoas foram cadastradas;
 B) A média de idade
-C) Uma lista com as mulheres
-D) Uma lista de pessoas com idade acima da média
+C) Uma listForSam com as mulheres
+D) Uma listForSam de pessoas com idade acima da média
 """
 
 dados = dict() #* informações de entrada do usuário
